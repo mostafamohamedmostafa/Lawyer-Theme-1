@@ -1,0 +1,110 @@
+.about-us-banner {
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/18/15/42/right-4944546_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  color: white;
+}
+
+.about-us-banner-text {
+  margin-top: 5%;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-us-banner-text {
+    margin-top: 5%;
+    text-align: right;
+    font-size: 1.1rem;
+  }
+}
+
+.about-us-certification {
+  text-align: right;
+  margin: 5%;
+}
+
+.about-us-certification .list-group-flush li {
+  background-color: #f1ede7;
+  margin-top: 1%;
+}
+
+/*<!--Start About us Team Section -->*/
+
+.about-us-team-section {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #f1ede7;
+}
+
+.about-us-team-header h2 {
+  text-align: right;
+}
+
+.about-us-team-section p {
+  color: gray;
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+}
+
+.about-us-team-section .card {
+  border: none;
+  text-align: center;
+  background-color: #f1ede7;
+}
+
+.about-us-team-section .card img {
+  margin: 0 auto;
+  height: 256px;
+  width: 256px;
+}
+.about-us-team-section .card h4 {
+  font-weight: bold;
+  color: black;
+}
+
+.about-us-team-section .card p {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .about-us-team-section .card {
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+  }
+  .about-us-team-section p {
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .about-us-team-section .card img {
+    margin: 0 auto;
+    height: 256px;
+    width: 256px;
+    border-radius:50%  ;
+    -webkit-border-radius:50%  ;
+    -moz-border-radius:50%  ;
+    -ms-border-radius:50%  ;
+    -o-border-radius:50%  ;
+  }
+  .about-us-team-section .card h4 {
+    font-size: medium;
+  }
+
+  .about-us-team-section .card p {
+    color: gray;
+  }
+}
+
+/*<!--End About Team Section -->*/
+
+/*About Us Clients*/
+.about-us-clients-header h2{
+    text-align: right;
+}

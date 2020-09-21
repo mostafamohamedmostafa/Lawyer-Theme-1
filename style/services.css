@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+.services-banner {
+  background-image: url("/Lawyer-Temp-3-master/img/contact-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  color: white;
+}
+
+.services-banner-text {
+  margin-top: 1%;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+  .servicess-all{
+    display: none;
+  }
+  .services-banner-text {
+    margin-top: 5%;
+    text-align: right;
+    font-size: 1.1rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .services-mobile{
+    display: none;
+}
+}
+
+.servicess-all  {
+  text-align: right;
+
+}
+
+
+.servicess-all a{
+  border-left: none;
+  border-right: none;
+  padding-top: 0.25%;
+}
+.servicess-all p {
+  font-size: medium;
+}
+
+
+.services-mobile{
+  text-align: right;
+
+}
+.services-mobile a {
+  border-left: none;
+  border-right: none;
+}

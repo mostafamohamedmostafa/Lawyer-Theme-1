@@ -1,0 +1,63 @@
+.legal-questions-banner{
+    background-image: url('/Lawyer-Temp-3-master/img/personal.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+ height: 35vh;   
+ color: white;
+
+}
+
+.legal-questions-banner-text{
+    margin-top: 1%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .Legal-questions-all{
+        visibility: hidden;
+        overflow: hidden;
+        display: none;
+
+    }
+    .legal-questions-banner-text{
+        margin-top: 5%;
+        text-align: right;
+        font-size: 1.1rem;
+    }
+
+}
+
+.Legal-questions-all{
+    text-align: right;
+}
+
+.Legal-questions-all a{
+    padding-top: 0.25%;
+    border-left:none ;
+    border-right: none;
+}
+.Legal-questions-all p{
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media (min-width: 768px) {
+
+    .legal-question-mobile{
+        display: none;
+    }  
+}
+
+
+.legal-question-mobile{
+    text-align: right;
+}
+
+.legal-question-mobile a{
+    text-align: right;
+    border-left:none ;
+    border-right: none;
+}

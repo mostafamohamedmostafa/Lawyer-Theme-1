@@ -1,0 +1,16 @@
+.contact-us-banner  iframe{
+    width: 100%;
+    height: 50vh;
+}
+
+.contact-us-section {
+    text-align: right;
+}
+
+.contact-us-section h5{
+    text-align: right;
+}
+
+.contact-us-section a{
+    color: #c4372e;
+}
