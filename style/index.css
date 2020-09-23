@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-  font-size: 16x;
+  font-size: 14x;
   color: #3a3a3a !important;
 }
 
@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 768px) {
   .intro-section  #main-slider .carousel-item h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
     position: absolute;
     left: 20%;
@@ -66,7 +66,7 @@ body {
     max-width: 100%;
   }
   .intro-section #main-slider .carousel-item h6 {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     text-align: center;
     position: absolute;
     left: 10%;
@@ -81,8 +81,14 @@ body {
     max-width: 100%;
     position: absolute;
     left: 40%;
-    top: 80%;
+    top: 65%;
   }
+
+  .intro-section .carousel-item img {
+
+    height: 40vh;
+  }
+  
 }
 
 .intro-section {
@@ -453,6 +459,15 @@ img {
   left: 40%;
 }
 @media (max-width: 768px) {
+
+  .intro-header h2 {
+    font-size: 1rem;
+  }
+
+  .intro-header p{
+    font-size:small;
+  }
+
   .intro-section {
     text-align: center;
     justify-content: center;
@@ -499,6 +514,13 @@ p {
 .services-section .card-deck .card {
   border: none !important;
 
+}
+
+@media (max-width: 768px){
+  .services-section .service-header h2 {
+    font-size: medium;
+    
+  }
 }
 
 /*<!--End Serivce Section -->*/
@@ -619,12 +641,12 @@ p {
 
 @media (max-width: 768px) {
   .consultation-appintment h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
   }
 
   .consultation-appintment p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .consultation-appintment button {
     background-color: white;
