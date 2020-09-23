@@ -160,7 +160,7 @@ body {
 .carousel-inner .carousel-item h2 {
   position: absolute;
   left: 25%;
-  top: 50%;
+  top: 30%;
   color: white;
   font-size: 2rem;
   font-weight: 900;
@@ -169,7 +169,7 @@ body {
 .carousel-inner .carousel-item h6 {
   position: absolute;
   left: 25%;
-  top: 60%;
+  top: 40%;
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
@@ -179,7 +179,7 @@ body {
   position: absolute;
   color: white;
   left: 45%;
-  top: 75%;
+  top: 55%;
   transform: translate(-00%, -40%);
   background-color: #c13330;
   font-size: 1.2rem;
@@ -425,24 +425,26 @@ img {
   float: left;
   height: 50%;
   width: 50%;
+  border-radius: 15%;
+  box-shadow: white 1px 1px 1px 1px;
 }
 .intro-header h2 {
   margin-top: 1%;
 }
 .intro-header p {
-  font-size: x-large;
+  font-size: large;
 }
 
 .intro-section h2 {
   font-weight: bold;
   color: black;
-  font-size: 2.4rem;
+  font-size: 1.2rem;
 }
 
 .intro-section p {
   font-weight: bold;
   color: #08526d;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .intro-img .overlay-intro-img {
@@ -469,17 +471,21 @@ img {
 .services-section .card h5,
 p {
   text-align: right;
+  font-size: medium;
 }
 
 .services-section .card img {
-  height: 128px;
-  width: 128px;
-  margin: 0 auto;
+  height: 64px;
+  width: 64px;
+  text-align: right;
+  box-shadow:lightgray 1px 1px 1px 1px;
 }
 
 .services-section .service-header h2 {
   color: black;
+  font-size: large;
   text-align: right;
+  
 }
 
 .services-section .service-header p {
@@ -492,6 +498,7 @@ p {
 }
 .services-section .card-deck .card {
   border: none !important;
+
 }
 
 /*<!--End Serivce Section -->*/
@@ -503,43 +510,47 @@ p {
   margin-bottom: 20px;
 }
 
-.team-section .team-header {
+.team-section .team-header  h2,p{
   margin-right: 0;
   text-align: right;
+  font-size: large;
+
 }
 
 .team-section h5 {
   text-align: right;
+  font-size: medium;
 }
 .team-section p {
   color: gray;
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
   text-align: right;
 }
 
 .team-section .card {
   border: none;
-  text-align: center;
+  text-align: right;
+  font-size: medium;
+
 }
 
 .team-section .card img {
-  margin: 0 auto;
   height: 256px;
-  width: 256px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  width: auto;
+  box-shadow: lightgray 1px 1px 1px 1px;
+ 
 }
 .team-section .card h4 {
   font-weight: bold;
   color: black;
+  font-size: medium;
 }
 
 .team-section .card p {
   color: gray;
+  font-size: medium;
+
 }
 
 @media (max-width: 768px) {
@@ -583,7 +594,7 @@ p {
 }
 
 .consultation-appintment h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: right;
   margin-bottom: 1%;
@@ -608,7 +619,7 @@ p {
 
 @media (max-width: 768px) {
   .consultation-appintment h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 
@@ -632,13 +643,11 @@ p {
   margin-bottom: 1%;
 }
 .testimonails-section img {
-  height: 256px;
-  opacity: 0.8;
-  margin-bottom: 1%;
+
 }
 
 .testimonails-section .carousel-caption {
-  padding-top: 10%;
+
 }
 
 .slide-in-bottom {
@@ -689,12 +698,11 @@ p {
 /*<!--Start Footer Section -->*/
 
 .footer-section {
-  background-image: url("https://cdn.pixabay.com/photo/2020/06/13/07/17/legal-5293009_960_720.jpg");
+  background-image: url('https://cdn.pixabay.com/photo/2015/02/01/18/27/hammer-620011_960_720.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 1%;
-}
+ }
 .footer-section img {
   width: 128px;
   height: auto;
@@ -702,7 +710,7 @@ p {
 
 .footer-section p {
   font-weight: bolder;
-  color: #c13330;
+  color:lightgrey;
   text-align: right;
 }
 
