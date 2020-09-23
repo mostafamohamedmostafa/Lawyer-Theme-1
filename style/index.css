@@ -639,8 +639,8 @@ p {
 /* Start testimonails-section*/
 .testimonails-section {
   background-color: #f7f6f2;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .testimonails-section .carousel-inner .card{
@@ -650,7 +650,7 @@ p {
 .testimonails-section .carousel-inner  img {
 height: 256px;
 width: 256px;
-border-radius: 25%;
+border-radius: 50%;
 margin: 0 auto;
 opacity: 1;
 }
