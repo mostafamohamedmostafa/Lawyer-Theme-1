@@ -642,8 +642,17 @@ p {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-.testimonails-section img {
 
+.testimonails-section .carousel-inner .card{
+  border: none;
+  background: none;
+}
+.testimonails-section .carousel-inner  img {
+height: 256px;
+width: 256px;
+border-radius: 25%;
+margin: 0 auto;
+opacity: 1;
 }
 
 .testimonails-section .carousel-caption {
