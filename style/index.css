@@ -654,20 +654,21 @@ img {
   }
 
   .team-section .card img {
-    margin: 0 auto;
+    text-align: right;
     height: 96px;
     width: 96px;
   }
-  .team-section .card h4 {
+  .team-section .card-deck .card-body{
+    text-align: right;
+padding-right: 0%;
     font-size: small;
-    margin: 0 auto;
 
   }
 
-  .team-section .card p {
+  .team-section  .card-deck .card-body p {
+    text-align: right;
     color: gray;
     font-size: small;
-    margin: 0 auto;
 
   }
 }
