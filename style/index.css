@@ -47,6 +47,24 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .navbar img {
+    width: auto;
+    height: 64px;
+    margin: 0 auto;
+  }
+
+  .navbar-brand   span{
+    margin: 0 auto;
+    font-size: small;
+    padding: 0%;
+  }
+
+  .navbar-toggler{
+    float: left;
+    margin: auto;
+  }
+}
 /*<!--End Nav Bar-->*/
 
 /*Start Intro  Styling*/
@@ -473,6 +491,10 @@ img {
     justify-content: center;
     align-items: center;
   }
+
+  .intro-header li {
+    font-size: small;
+  }
 }
 /*<!--End About Section -->*/
 
@@ -483,10 +505,17 @@ img {
   background-color: white;
 }
 
-.services-section .card h5,
-p {
-  text-align: right;
+.services-section .card-deck .card-body {
   font-size: medium;
+  text-align: right;
+  margin-right: 0%;
+  padding-right: 0%;
+  
+}
+
+.services-section .card-body p{
+  font-size: medium;
+
 }
 
 .services-section .card img {
@@ -506,6 +535,7 @@ p {
 .services-section .service-header p {
   color: gray;
   font-weight: bold;
+  text-align: right;
 }
 
 .more-service-btn {
@@ -521,7 +551,37 @@ p {
     font-size: medium;
     
   }
+
+  .services-section .service-header h2 {
+    font-size: medium;
+    
+  }
+  .services-section .service-header p {
+    color: gray;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .services-section .card-deck .card-body h5 {
+    font-size: small;
+
+    
+  }
+
+  .services-section .card img {
+    height: 32px;
+    width: 32px;
+
+  }
+  
+  
+  .services-section .card-body p{
+    font-size: small;
+  
+  }
+  
 }
+
 
 /*<!--End Serivce Section -->*/
 
@@ -576,6 +636,11 @@ p {
 }
 
 @media (max-width: 768px) {
+
+  .team-header {
+    font-size: small;
+  }
+
   .team-section .card {
     width: 100%;
     margin: 0;
@@ -590,15 +655,20 @@ p {
 
   .team-section .card img {
     margin: 0 auto;
-    height: 128px;
-    width: 128px;
+    height: 96px;
+    width: 96px;
   }
   .team-section .card h4 {
-    font-size: medium;
+    font-size: small;
+    margin: 0 auto;
+
   }
 
   .team-section .card p {
     color: gray;
+    font-size: small;
+    margin: 0 auto;
+
   }
 }
 
@@ -675,6 +745,22 @@ width: 256px;
 border-radius: 50%;
 margin: 0 auto;
 opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+  .testimonails-section .carousel-inner  img {
+    height: 96px;
+    width: 96px;
+    }
+
+    .testimonails-section .carousel-inner  .card-text {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    
+    }
+
+
 }
 
 .testimonails-section .carousel-caption {
