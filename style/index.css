@@ -449,9 +449,7 @@ img {
   float: left;
   height: 50%;
   width: 50%;
-  border-radius: 15%;
-  box-shadow: white 1px 1px 1px 1px;
-}
+ }
 .intro-header h2 {
   margin-top: 1%;
 }
@@ -853,6 +851,12 @@ opacity: 1;
 }
 
 @media (max-width: 768px) {
+
+  .footer-section li p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+  }
   .footer-section li a {
     text-decoration: none;
     font-weight: bold;
